@@ -1,24 +1,25 @@
 # Welcome!
 
-This Java template lets you get started quickly with a simple one-page playground.
+This C# template lets you get started quickly with a simple one-page playground.
 
-```java runnable
+```C# runnable
 // { autofold
-public class Main {
+using System;
 
-public static void main(String[] args) {
+class Hello 
+{
+    static void Main() 
+    {
 // }
 
-String message = "Hello World!";
-System.out.println(message);
+Console.WriteLine("Hello World!");
 
-//{ autofold
+// { autofold
+    }
 }
-
-}
-//}
+// }
 ```
 
 # Advanced usage
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced Java template](https://tech.io/select-repo/385)
+If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
